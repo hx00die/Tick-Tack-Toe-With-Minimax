@@ -1,6 +1,5 @@
 import pygame, sys
 from math import inf
-import time
 
 def draw_grid():
     pygame.draw.line(screen, (23,145,135), (0,200-line_width), (screen_width,200-line_width),line_width)
